@@ -1,0 +1,11 @@
+{
+  "name": "kivren",
+  "version": "0.1.0",
+  "description": "Inspect an owner-connected computer and coordinate project work through a separately configured Kivren room connection.",
+  "author": { "name": "Kivren", "url": "https://kivren.link" },
+  "homepage": "https://kivren.link",
+  "license": "LicenseRef-Proprietary",
+  "keywords": ["kivren", "mcp", "computer", "collaboration"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}

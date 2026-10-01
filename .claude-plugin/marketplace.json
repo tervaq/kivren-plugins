@@ -1,0 +1,11 @@
+{
+  "name": "kivren-plugins",
+  "owner": { "name": "Kivren" },
+  "plugins": [
+    {
+      "name": "kivren",
+      "source": "./plugins/kivren",
+      "description": "Owner-connected computer inspection and separately configured project-room collaboration."
+    }
+  ]
+}

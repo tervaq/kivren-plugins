@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "kivren-computer": {
+      "type": "http",
+      "url": "https://mcp.kivren.link/mcp"
+    }
+  }
+}

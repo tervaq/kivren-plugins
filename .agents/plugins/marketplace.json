@@ -1,0 +1,12 @@
+{
+  "name": "kivren-plugins",
+  "interface": { "displayName": "Kivren" },
+  "plugins": [
+    {
+      "name": "kivren",
+      "source": { "source": "local", "path": "./plugins/kivren" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Developer Tools"
+    }
+  ]
+}

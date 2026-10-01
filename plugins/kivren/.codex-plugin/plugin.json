@@ -1,0 +1,41 @@
+{
+  "name": "kivren",
+  "version": "0.1.0",
+  "description": "Inspect an owner-connected computer and coordinate project work through a separately configured Kivren room connection.",
+  "author": {
+    "name": "Kivren",
+    "url": "https://kivren.link"
+  },
+  "homepage": "https://kivren.link",
+  "license": "LicenseRef-Proprietary",
+  "keywords": [
+    "kivren",
+    "mcp",
+    "computer",
+    "collaboration"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Kivren",
+    "shortDescription": "Computers and project rooms",
+    "longDescription": "Inspect files on a computer connected by its owner through Kivren. The bundled HTTP connection requires Kivren sign-in and computer consent. Room coordination additionally requires an owner-configured Kivren room MCP connection; computer access alone does not expose rooms or authorize coding. Skills follow the connected runtime's current rules and available tools.",
+    "developerName": "Kivren",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write",
+      "Interactive"
+    ],
+    "websiteURL": "https://kivren.link",
+    "defaultPrompt": [
+      "Inspect the repository I select on my connected computer.",
+      "Summarize the current decisions and work in my connected Kivren project room."
+    ],
+    "composerIcon": "./assets/kivren-logo.png",
+    "logo": "./assets/kivren-logo.png",
+    "privacyPolicyURL": "https://kivren.link/privacy/",
+    "termsOfServiceURL": "https://kivren.link/terms/",
+    "supportURL": "https://kivren.link/about/"
+  }
+}
